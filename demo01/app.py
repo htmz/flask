@@ -21,7 +21,7 @@ def blog_detail(blog_id):
 @app.route('/book/list')
 def book_list():
     page = request.args.get("page", default=1, type=int)
-    return f"您获取的是第{page}页......"
+    return f"您获取的是第{page}页."
 
 
 # debug模式
